@@ -52,13 +52,13 @@ With all tests passing and crontab setup, Sentinel will stay in sync with exiliu
 
 ### 5. Start sentinel
  
-with all tests passing, start sentinel with the line below.
+with all tests passing, start sentinel with the below line.
 
 venv/bin/python bin/sentinel.py  
   
 (should return nothing but silence. This is how you know it's working, and your masternode is working.)
 
-On your exilium-cli folder run the line below
+On your exilium-cli folder run the below line.
 
 ./exilium-cli mnsync status
 
